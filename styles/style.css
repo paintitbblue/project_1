@@ -290,6 +290,7 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
+  margin: auto;
 }
 
 .footer__column {
@@ -305,12 +306,15 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin: 10px 0 20px;
+  color: #F2F2F2;
 }
 
 .footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: #F2F2F2;
   left: 0;
   bottom: 0;
   position: absolute;
