@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
+@import url(./styles/normalize.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/content/description/description.css);
+@import url(./blocks/content/techniques/techniques.css);
+@import url(./blocks/content/video/video.css);
+@import url(./blocks/content/oakley/oakley.css);
+@import url(./blocks/content/feynman/feynman.css);
+@import url(./blocks/content/khan/khan.css);
+@import url(./blocks/content/digits/digits.css);
+@import url(./blocks/content/kaufman/kaufman.css);
+@import url(./blocks/content/resources/resources.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/form/form.css);
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+}
+
+.section-title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.section-title_theme_dark {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.section-subtitle {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-subtitle_theme_dark {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
