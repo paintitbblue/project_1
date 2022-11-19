@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
+@import url(./font/Inconsolata-Regular.ttf);
 @import url(./styles/normalize.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/content/description/description.css);
@@ -8,6 +8,7 @@
 @import url(./blocks/content/feynman/feynman.css);
 @import url(./blocks/content/khan/khan.css);
 @import url(./blocks/content/digits/digits.css);
+@import url(./digits__theme_dark.css);
 @import url(./blocks/content/kaufman/kaufman.css);
 @import url(./blocks/content/resources/resources.css);
 @import url(./blocks/footer/footer.css);
