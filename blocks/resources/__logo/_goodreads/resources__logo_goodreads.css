@@ -1,0 +1,9 @@
+.resources__logo_goodreads {
+    background-image: url(/images/logo/resources-goodreads.png);
+}
+
+.resources__logo_goodreads:hover {
+    opacity: .7;
+    transform: scale(1.2);
+    transition: transform .4s ease-in;
+}

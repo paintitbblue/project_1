@@ -1,0 +1,9 @@
+.resources__logo_medium {
+    background-image: url(/images/logo/resources-Medium.png);
+}
+
+.resources__logo_medium:hover {
+    opacity: .7;
+    transform: scale(1.2);
+    transition: transform .4s ease-in;
+}

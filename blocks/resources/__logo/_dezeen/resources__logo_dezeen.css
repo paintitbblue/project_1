@@ -1,0 +1,9 @@
+.resources__logo_dezeen {
+    background-image: url(/images/logo/resources-dezeen.png);
+}
+
+.resources__logo_dezeen:hover {
+    opacity: .7;
+    transform: scale(1.2);
+    transition: transform .4s ease-in;
+}

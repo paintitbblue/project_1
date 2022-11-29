@@ -1,0 +1,9 @@
+.resources__logo_tedED {
+    background-image: url(/images/logo/resources-tedED.png);
+}
+
+.resources__logo_tedED:hover {
+    opacity: .7;
+    transform: scale(1.2);
+    transition: transform .4s ease-in;
+}
